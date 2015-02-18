@@ -1,0 +1,44 @@
+﻿html,body  {
+	background-color:#000;
+	text-align:center;
+	margin-top:20px;
+	font-family:verdana;	
+} 
+h2{
+	color:#fff;
+}
+h5{
+	color:#ccc;
+}
+.container{
+	padding:4px;
+	display:inline-block;
+	width:200px;
+	height:200px;
+}
+.shape{
+	border:2px #fff solid; 
+	background: rgb(240, 240, 240);
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+	box-shadow: 2px 2px 2px rgb(136, 136, 136); 
+	margin:2px;
+}
+.shape:hover{
+	cursor:pointer;
+}
+.selected{
+	background-color:#4D90FE;
+	
+}
+.wrong{
+	background-color:red;
+	
+}
+.square{
+	
+}
+.circle{
+	border-radius:50px;
+}
